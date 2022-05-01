@@ -15,21 +15,27 @@ let CarouselContainer = () => {
         interval={2000}
         showStatus={false}
       >
-        <div>
-          <img src="https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h9-slider-image-1b.jpg" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            delectus neque ratione velit, veniam nisi harum, ex optio earum iure
-            rem veritatis. Quibusdam sapiente saepe nisi quisquam? Tempore,
-            labore autem?
-          </p>
+        <div className="bubbles">
+          <section className="carouselInfo">
+            <h4>best in our field</h4>
+            <h2>medical laboratory</h2>
+            <h1>technicians</h1>
+          </section>
         </div>
 
-        <div>
-          <img src="https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h9-slider-image-2.jpg" />
+        <div className="doc">
+          <section className="carouselInfo">
+            <h4>best in our field</h4>
+            <h2>biotechnology for</h2>
+            <h1>the new age</h1>
+          </section>
         </div>
-        <div>
-          <img src="https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/04/h9-slider-image-3.jpg" />
+        <div className="testing">
+          <section className="carouselInfo">
+            <h4>best in our field</h4>
+            <h2>state-of-the-art</h2>
+            <h1>laboratories</h1>
+          </section>
         </div>
       </Carousel>
     </div>

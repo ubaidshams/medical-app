@@ -20,7 +20,7 @@ const Card = ({ src, title }) => {
         </p>
       </div>
       <div className="cardFooter">
-        <div className="btn">
+        <div className="cardBtn">
           <Link to="">Learn More</Link>
         </div>
         <div className="socialIcons">
